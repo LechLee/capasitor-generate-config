@@ -1,0 +1,27 @@
+{
+  "name": "capasitor-generate-config",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node -r esm scripts/generate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor-community/http": "^1.0.0-alpha.1",
+    "@capacitor/android": "^3.0.0-rc.0",
+    "@capacitor/cli": "^3.0.0-rc.0",
+    "@capacitor/core": "^3.0.0-rc.0",
+    "@capacitor/device": "^0.5.5",
+    "@capacitor/dialog": "^0.4.5",
+    "@capacitor/filesystem": "^0.5.1",
+    "@capacitor/ios": "^3.0.0-rc.0"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "esm": "^3.2.25",
+    "fs-extra": "^9.1.0",
+    "http-server": "^0.12.3"
+  }
+}
